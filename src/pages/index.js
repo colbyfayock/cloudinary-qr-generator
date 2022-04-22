@@ -25,7 +25,7 @@ export default function Home() {
   const [imageIsLoaded, setImageIsLoaded] = useState();
 
   const activeUrl = url || defaultUrl;
-  const qrUrl = cld.image(`mediajams/qr/${sanitizeUrl(activeUrl)}`).effect('e_vectorize:detail:1.0').format('svg').toURL().replace('v1/', '');
+  const qrUrl = cld.image(`mediajams/qr/${sanitizeUrl(activeUrl)}`).effect('e_vectorize:detail:1.0').format('svg').toURL();
 
   function handleOnSubmit(e) {
     e.preventDefault();
