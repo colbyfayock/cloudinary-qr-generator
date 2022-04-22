@@ -11,10 +11,11 @@ import styles from '@styles/Home.module.scss'
 const cld = new Cloudinary({
   cloud: {
     cloudName: process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME
+  },
+  url: {
+    forceVersion: false
   }
 });
-
-// https://res.cloudinary.com/colbycloud-mediajams/image/upload/e_vectorize,f_svg/mediajams/qr/https://spacejelly.dev
 
 const defaultUrl = 'https://spacejelly.dev';
 
