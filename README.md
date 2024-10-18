@@ -1,5 +1,7 @@
 # Cloudinary QR Code Generator
 
+https://cloudinary.com/blog/guest_post/generate-qr-codes-with-cloudinary
+
 ## ⚡️ Quick Start
 
 ```bash
